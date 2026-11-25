@@ -1,0 +1,20 @@
+# Esempio da copiare e modificare. Gli indirizzi sono quelli riservati alla
+# documentazione (RFC 5737), non appartengono a nessuno: non autorizzano niente di reale.
+
+[engagement]
+nome = "ESEMPIO-rete-uffici"
+autorizzato_da = "Nome Cognome, ruolo, azienda"
+riferimento = "CONTRATTO-0000"
+valido_dal = 2026-01-01
+valido_fino = 2026-01-31
+
+[scope]
+include = [
+    "192.0.2.0/25",
+    "server.example.org",
+    "*.dev.example.org",
+]
+esclude = [
+    "192.0.2.1",
+    "vecchio.dev.example.org",
+]
